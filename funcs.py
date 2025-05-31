@@ -34,6 +34,7 @@ def blackScholesSDE(steps, x0, sigma, r, T=1.0): # previously used for separate 
         t += h
         xList.append(X)
         tList.append(t)
+
     
     return xList, tList
 
